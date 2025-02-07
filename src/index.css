@@ -87,3 +87,13 @@ body {
 .center {
   text-align: center;
 }
+
+.tablehead {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#user-input .label {
+  font-size: 1rem;
+  font-weight: bold;
+}

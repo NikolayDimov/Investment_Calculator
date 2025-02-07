@@ -1,4 +1,5 @@
 import { calculateInvestmentResults, formatter } from "../util/investment";
+import "../index.css";
 
 export default function Results({ userInput }) {
 	const resultsData = calculateInvestmentResults(userInput);
@@ -8,11 +9,11 @@ export default function Results({ userInput }) {
 		<table id="result">
 			<thead>
 				<tr>
-					<th>Year</th>
-					<th>Investment Value</th>
-					<th>Interest (Year)</th>
-					<th>Total Interest</th>
-					<th>Invested Capital</th>
+					<th className="tablehead">Year</th>
+					<th className="tablehead">Investment Value</th>
+					<th className="tablehead">Interest (Year)</th>
+					<th className="tablehead">Total Interest</th>
+					<th className="tablehead">Invested Capital</th>
 				</tr>
 			</thead>
 			<tbody>
